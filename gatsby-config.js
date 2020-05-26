@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Shafeh.org`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `We provide resources for common Jewish practices.`,
     author: `@ShafehOrg`,
   },
   plugins: [
@@ -24,10 +24,9 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/shafeh-icon.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/shafeh-icon.jpg`,
       },
     },
   ],
-  pathPrefix: "/site",
-
+  pathPrefix: "/",
 }
