@@ -9,7 +9,7 @@ const Siddur = () => (
     <SEO title="Siddur" />
     <div>
       <h2> Siddur Torah Ohr, Chabad</h2><br />
-      <a href="https://shafeh.org/siddur-support">Support and Feedback</a><br />
+      <Link to="/siddur-support">Support and Feedback</Link>
       <a href="https://geo.itunes.apple.com/us/app/siddur-nusach-chabad/id1065612931?mt=8&amp;at=1010laVi" className="siddur-appp-store"></a>
       {/* <img height="200px" src="https://sharshi.com/p/siddur_app.png" /><br /> */}
       <br />
