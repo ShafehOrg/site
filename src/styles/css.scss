@@ -3,6 +3,99 @@ html {
   color: $primary-color;
 }
 
+header {
+  background: #222;
+}
+header .container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .siteTitle {
+  margin: 0;
+  text-align: center;
+}
+header .siteTitle a {
+  text-transform: uppercase;
+  display: inline-block;
+  color: #FFB566;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+header .siteTitle a:hover {
+  background: #FFB566;
+  color: white;
+  border-color: #FFB566;
+}
+header h1.siteTitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+header h1.siteTitle a {
+  text-decoration: none;
+}
+header p.camelBy {
+  text-align: center;
+}
+header > .container > nav,
+header > .container > h1 {
+  text-align: center;
+  padding: 15px;
+}
+header nav a {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+header nav a:hover,
+header nav a:focus {
+  color: #fff !important;
+}
+header nav a:visited {
+  color: #FFB566;
+}
+
+
+footer {
+  border-top: 1px solid #222;
+}
+footer .copy {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
+
+main {
+  margin: 0 auto;
+  width: 700px;
+  padding: 0 20px;
+  position: relative;
+}
+main h2 {
+  margin-bottom: 0;
+}
+main h2 a {
+  text-decoration: none;
+  color: black;
+}
+main h2 a:hover,
+main h2 a:focus {
+  color: #330000;
+}
+main .date {
+  font-size: 16px;
+}
+
+
+
+
+
+
 .siddur-app-store {
   display:inline-block;
   overflow:hidden;
@@ -10,3 +103,4 @@ html {
   width:165px;
   height:40px;
 }
+

@@ -1,0 +1,20 @@
+@media screen and (max-width: 740px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .siteTitle {
+    padding-top: 20px;
+  }
+
+  header .container {
+    flex-direction: column;
+  }
+  header > .container > h1 {
+    padding-bottom: 2px;
+  }
+  header > .container > nav {
+    padding-top: 2px;
+  }
+}

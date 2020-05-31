@@ -29,9 +29,11 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
+          <div className="copy">
            © {new Date().getFullYear()}, Shafeh.org
           {`, Developer: `}
           <a href="https://www.sharshi.com">Shersheial Borisute</a>
+          </div>
         </footer>
       </div>
     </>

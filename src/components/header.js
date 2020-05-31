@@ -4,9 +4,16 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-      <h1>
+    <div className="container">
+      <h1 className="siteTitle">
         <Link to="/" >{siteTitle}</Link>
       </h1>
+      <nav>
+        <Link to="/siddur/">Siddur</Link>
+        <Link to="/tikkun/">Tikkun Korim</Link>
+        <Link to="/megillah/">Megillah</Link>
+      </nav>
+    </div>
   </header>
 )
 
