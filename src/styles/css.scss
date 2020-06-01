@@ -4,7 +4,7 @@ html {
 }
 
 header {
-  background: #222;
+  background: $header-bg;
  .container {
     max-width: 900px;
     margin: 0 auto;
@@ -19,13 +19,13 @@ header {
         text-transform: uppercase;
         text-decoration: none;
         display: inline-block;
-        color: #FFB566;
+        color: $header-fg;
         font-weight: bold;
         letter-spacing: 5px;
         &:hover {
-          background: #FFB566;
+          background: $header-fg;
           color: white;
-          border-color: #FFB566;
+          border-color: $header-fg;
         }
       }
     }
@@ -43,7 +43,7 @@ header {
           color: #fff !important;
         }
         &:visited {
-          color: #FFB566;
+          color: $header-fg;
         }
       }
     }
@@ -51,7 +51,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid #222;
+  border-top: 1px solid $header-bg;
   .copy {
     text-align: center;
     padding-top: 30px;
