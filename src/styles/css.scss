@@ -6,8 +6,6 @@ html {
 header {
   background: $header-bg;
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
-
-
  .container {
     max-width: 900px;
     margin: 0 auto;
@@ -47,6 +45,9 @@ header {
         }
         &:visited {
           color: $header-fg;
+        }
+        &.active {
+          color: #fff !important;
         }
       }
     }

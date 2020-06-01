@@ -1,21 +1,33 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => {
+  const navInfo = [
+    { link: "siddur", text: "Siddur" },
+    { link: "tikkun", text: "Tikkun Korim" },
+    { link: "megillah", text: "Megillah" },
+  ]
+  return (
   <header>
     <div className="container">
       <h1 className="siteTitle">
         <Link to="/" >{siteTitle}</Link>
       </h1>
       <nav>
-        <Link to="/siddur/">Siddur</Link>
-        <Link to="/tikkun/">Tikkun Korim</Link>
-        <Link to="/megillah/">Megillah</Link>
+          {navInfo.map(page => (
+            <Link
+              key={`nav-key-/${page.link}/`}
+              activeClassName="active"
+              to={`/${page.link}/`}
+            >
+              {`${page.text}`}
+            </Link>
+          ))}
       </nav>
     </div>
   </header>
-)
+)}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
