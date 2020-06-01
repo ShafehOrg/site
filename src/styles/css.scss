@@ -29,6 +29,7 @@ header {
         }
       }
     }
+
     nav {
       text-align: center;
       padding: 15px;
@@ -79,6 +80,13 @@ main {
   }
   .date {
     font-size: 16px;
+  }
+  .app-links {
+    a {
+      img {
+        width: 135px;
+      }
+    }
   }
 }
 

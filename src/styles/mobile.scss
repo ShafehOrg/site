@@ -4,17 +4,14 @@
     line-height: 24px;
   }
 
-  .siteTitle {
-    padding-top: 20px;
-  }
-
   header .container {
     flex-direction: column;
-  }
-  header > .container > h1 {
-    padding-bottom: 2px;
-  }
-  header > .container > nav {
-    padding-top: 2px;
+    .siteTitle {
+      padding-top: 20px;
+      padding-bottom: 2px;
+    }
+    nav {
+      padding-top: 2px;
+    }
   }
 }
