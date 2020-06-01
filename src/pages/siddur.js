@@ -12,7 +12,7 @@ const Siddur = () => {
       <div>
         <h2> Siddur Torah Ohr, Chabad</h2><br />
         <Link to="/siddur-support">Support and Feedback</Link>
-        <a href="https://geo.itunes.apple.com/us/app/siddur-nusach-chabad/id1065612931?mt=8&amp;at=1010laVi" className="siddur-appp-store">app store</a>
+        <a href="https://geo.itunes.apple.com/us/app/siddur-nusach-chabad/id1065612931?mt=8&amp;at=1010laVi" className="siddur-app-store"></a>
         <img alt="siddur icon" height="200px" src={SiddurIcon} />
         <br />
         <p>
