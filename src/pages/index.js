@@ -7,7 +7,6 @@ import SiddurIcon from "../images/siddur-icon.png";
 import TikkunIcon from "../images/tikkun-icon.png";
 import MegillahIcon from "../images/megillah-icon.png";
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
