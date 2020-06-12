@@ -14,4 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.GASTBY_PUBLISH }}
           deploy-repo: shafehorg.github.io
-          deploy-branch: gh-pages
+          deploy-branch: master
