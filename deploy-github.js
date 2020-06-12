@@ -1,13 +1,11 @@
-const ghpages = require('gh-pages')
+const ghpages = require("gh-pages");
 
-// replace with your repo url
-ghpages.publish(
-  'public',
-  {
-    branch: 'master',
-    repo: 'https://github.com/shafehorg/shafehorg.github.io.git',
-  },
-  () => {
-    console.log('Deploy Complete!')
-  }
-)
+const branch = "master";
+const repo = "https://github.com/shafehorg/shafehorg.github.io.git";
+const visible = "public";
+const repoDetails = { branch, repo };
+const callback = () => console.log('Deploy Complete!');
+
+const options = [visible, repoDetails, callback];
+
+ghpages.publish( ...options )
