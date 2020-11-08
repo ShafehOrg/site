@@ -14,6 +14,32 @@ const Tikkun = () => {
     </div>
   )
 
+  let features = [
+    {
+      title: "Simple Function",
+      description: "Tap the text to switch from with Nikkud and Trop/Taamim/Simanim to without. And vice versa."
+    },
+    {
+      title: "Easy Navigation",
+      description: "Quickly switch from one Aliya to the next by swiping left and right or by tapping the arrows on the top left."
+    },
+    {
+      title: "On The Go",
+      description: "Tikkun Korim was designed with the small screen in mind, it only shows what you need when you need it, a simple tap gets you where you need."
+    }
+  ];
+
+  features = features.map(feature => {
+    return (
+      <div key={feature.title} className="app-list-card">
+        <div>
+          <h4>{feature.title}</h4>
+          <p>{feature.description}</p>
+        </div>
+      </div>
+    )
+  });
+
   return (
   <Layout>
     <SEO title="Tikkun" />
@@ -27,24 +53,7 @@ const Tikkun = () => {
     <a href="https://www.sharshi.com/tikkunkorim/" target="_blank">Try It Here!</a>
 
     <div className="app-list">
-      <div className="app-list-card">
-        <div>
-          <h4>Simple Function</h4>
-          <p>Tap the text to switch from with Nikkud and Trop/Taamim/Simanim to without. And vice versa.</p>
-        </div>
-      </div>
-      <div className="app-list-card">
-        <div>
-          <h4>Easy Navigation</h4>
-          <p>Quickly switch from one Aliya to the next by swiping left and right or by tapping the arrows on the top left.</p>
-        </div>
-      </div>
-      <div className="app-list-card">
-        <div>
-          <h4>On The Go</h4>
-          <p>Tikkun Korim was designed with the small screen in mind, it only shows what you need when you need it, a simple tap gets you where you need.</p>
-        </div>
-      </div>
+      {features}
     </div>
 
     <div>
@@ -61,7 +70,8 @@ const Tikkun = () => {
       
       <p>Now its easier to practice reading the Torah on the go!</p>
     </div>
-      {appLinks}
+    
+    {appLinks}
   </Layout>
 )}
 
