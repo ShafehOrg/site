@@ -42,15 +42,17 @@ const Tikkun = () => {
 
   return (
   <Layout>
-    <SEO title="Tikkun" />
+    <SEO
+      title="Tikkun Korim App Online"
+      description="Online Tikkun Korim, and an app for iOS and Android"
+      />
     <h1>Tikkun Korim תיקון קוראים</h1>
-      {appLinks}
     <div className="jumbotron" >
       <p>Perfect for perfecting proficiency in reading the Torah portion. Choose a Parsha from any Chumash including double Parshiot. Makes practicing much easier.</p>
       <p>The traditional Tikkun Korim places the 'Chumash' text on the right and the 'Torah' text on the left. This project was made with mobile one handed use on small screened devices in mind, that's why we came up with a simple way to get the most out of the small screen, by simply tapping to remove the Trop and Nikkud.</p>
     </div>
 
-    <a href="https://www.sharshi.com/tikkunkorim/" target="_blank">Try It Here!</a>
+    <a className='tikkun-korim-online-cta' href="https://www.sharshi.com/tikkunkorim/" target="_blank">Try It Here!</a>
 
     <div className="app-list">
       {features}
@@ -71,7 +73,8 @@ const Tikkun = () => {
       <p>Now its easier to practice reading the Torah on the go!</p>
     </div>
     
-    {appLinks}
+    { appLinks }
+
   </Layout>
 )}
 
