@@ -52,7 +52,7 @@ const Tikkun = () => {
       <p>The traditional Tikkun Korim places the 'Chumash' text on the right and the 'Torah' text on the left. This project was made with mobile one handed use on small screened devices in mind, that's why we came up with a simple way to get the most out of the small screen, by simply tapping to remove the Trop and Nikkud.</p>
     </div>
 
-    <a className='tikkun-korim-online-cta' href="https://www.sharshi.com/tikkunkorim/" target="_blank">Try It Here!</a>
+    <a className='tikkun-korim-online-cta' href="https://www.sharshi.com/tikkunkorim/" target="_blank">Try The Tikkun Online Here!</a>
 
     <div className="app-list">
       {features}
