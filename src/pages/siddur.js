@@ -15,6 +15,13 @@ const Siddur = () => {
         <a href="https://geo.itunes.apple.com/us/app/siddur-nusach-chabad/id1065612931?mt=8&amp;at=1010laVi" className="siddur-app-store"></a>
         <img alt="siddur icon" height="200px" src={SiddurIcon} />
         <br />
+        
+        <p style="font-size: 18px; color: #555; text-align: center;">Android App Coming Soon</p>
+<br />
+<p style="font-size: 16px; text-align: center;">
+    <a href="https://shafeh.substack.com/" target="_blank" rel="noopener noreferrer">Sign up for updates on Substack</a>
+</p>
+<br />
         <p>
           Siddur Torah Ohr, Chabad, only displays the text that you need to Daven now.<br />Features:
       </p>
